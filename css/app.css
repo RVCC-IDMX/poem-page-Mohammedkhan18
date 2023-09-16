@@ -53,6 +53,9 @@ h4 {
   justify-content: center;
   max-width: 900px;
   border: 10px double ;
+  text-shadow: 5px 5px 5px rgba(0,0,0,.5);
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+  border-radius: .5em;
   margin: auto;
 }
 
@@ -63,7 +66,7 @@ h4 {
     max-width: 60%;
     display: block;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 45px;
     margin-bottom: 10px;
 
 }
@@ -76,20 +79,25 @@ h4 {
   text-align: center;
   padding: 1rem;
   font-family: 'Simonetta';
+  margin-top: 3px;
+  margin-bottom: 40px;
 }
 
-body {
-  font-size-adjust: fit-content;
-}
+
+
 
 .poem {
   font-family: 'Simonetta';
-    display: flex;
+  display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-inline: auto;
     font-size: clamp(0.8rem, 1vw + 0.75rem, 2rem);
+    box-sizing: border-box;
+    border: 10px double ;
+    border-radius: .5em;
+  
 }
 
 p:first-child:first-letter {
@@ -112,6 +120,29 @@ p:first-child:first-letter {
 
 .stanza {
   padding: .5rem;
+}
+
+.footer  {
+  background-color: beige;
+  font-family: 'Simonetta';
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    font-size: clamp(0.8rem, 1vw + 0.75rem, 2rem);
+    box-sizing: border-box;
+    border: 10px double ;
+    border-radius: .5em;
+}
+
+h5 {
+  text-decoration: none;
+}
+
+.github {
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 
