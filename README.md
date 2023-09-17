@@ -1,10 +1,10 @@
 # Simple Web Site
 
-### By: Mohammed Zohair Khan
+#### By: Mohammed Zohair Khan
 
 &nbsp;
 
-### I created this page to show off the poem, "The Sleeper" by Edgar Allan Poe. This is a love poem to a woman named irene, who is dead. I chose the graveyard image because the speaker is at the graveyard in the poem. 
+#### I created this page to show off the poem, "The Sleeper" by Edgar Allan Poe. This is a love poem to a woman named irene, who is dead. I chose the graveyard image because the speaker is at the graveyard in the poem. 
 
 &nbsp;
 
